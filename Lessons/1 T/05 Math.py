@@ -31,6 +31,9 @@ print(ceil)  # 11
 # Suapvalina skaičių į artimiausią sveikąjį skaičių
 # Tai ne math modulio funkcija, dėl to nereikia rašyti math.round()
 round_number = round(10.5)
+print(round_number)  # 10
+round_number = round(10.55, 1)
+print(round_number)  # 10.6
 
 # Modulis keičia skaičių į teigiamą
 absolute = math.fabs(-10)
