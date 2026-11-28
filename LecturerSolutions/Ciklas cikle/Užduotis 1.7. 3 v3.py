@@ -1,0 +1,1 @@
+print("\n".join(["".join(map(lambda s: f"{s:4}", (map(lambda x: x * i, [j for j in range(1, 11)])))) for i in range(1, 11)]))
